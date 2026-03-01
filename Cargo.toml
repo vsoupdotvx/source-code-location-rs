@@ -1,0 +1,7 @@
+[package]
+name = "source-code-location"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+source-code-location-derive = { version = "*", path = "source-code-location-derive/" }
