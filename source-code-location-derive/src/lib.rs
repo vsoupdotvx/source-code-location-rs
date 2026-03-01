@@ -5,7 +5,7 @@ use proc_macro::TokenStream;
 /// handling.
 #[proc_macro]
 pub fn location(input: TokenStream) -> TokenStream {
-    do_location(input, "error_location::", "location")
+    do_location(input, "source_code_location::", "location")
 }
 
 /// Same as [`location!`], but for unit tests.
