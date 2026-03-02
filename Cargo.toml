@@ -2,6 +2,13 @@
 name = "source-code-location"
 version = "0.1.0"
 edition = "2024"
+rust-version = "1.88"
+description = "Location macro and type"
+keywords = ["location"]
+categories = ["development-tools::debugging"]
+repository = "https://github.com/vsoupdotvx/source-code-location-rs"
+license = "Apache-2.0"
+
 
 [dependencies]
 source-code-location-derive = { version = "*", path = "source-code-location-derive/" }
